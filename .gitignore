@@ -104,3 +104,78 @@ temp/
 *.db
 *.sqlite
 *.sqlite3
+
+# Vite
+.vite/
+
+# Editor backups and swap files
+*.bak
+*.backup
+*.tmp
+
+# OS lock files
+*.lock
+
+# Runtime configuration
+config/local.*
+.env.local.*
+
+# Documentation build
+docs/build/
+
+# Storybook
+storybook-static/
+
+# Local development
+.local/
+
+# Test coverage
+coverage/
+*.lcov
+
+# Dependency lock files (keep pnpm-lock.yaml)
+package-lock.json
+yarn.lock
+
+# IDE workspace files
+*.code-workspace
+.vscode/settings.json
+.idea/workspace.xml
+
+# MacOS
+.AppleDouble
+.LSOverride
+
+# Windows
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Package manager cache
+.pnpm-debug.log*
+.pnpm-store/
+
+# Build artifacts
+*.tsbuildinfo
+*.tgz
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.temp/

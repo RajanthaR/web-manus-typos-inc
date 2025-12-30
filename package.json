@@ -2,7 +2,31 @@
   "name": "typos-inc",
   "version": "1.0.0",
   "type": "module",
-  "license": "MIT",
+  "license": "UNLICENSED",
+  "description": "A web application that humanizes AI-generated text by adding realistic human errors and imperfections",
+  "author": {
+    "name": "Rajantha R Ambegala",
+    "email": "rajantha.rc@gmail.com",
+    "url": "https://github.com/RajanthaR/"
+  },
+  "homepage": "https://github.com/RajanthaR/web-manus-typos-inc#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RajanthaR/web-manus-typos-inc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RajanthaR/web-manus-typos-inc/issues"
+  },
+  "keywords": [
+    "ai",
+    "text",
+    "humanization",
+    "typos",
+    "errors",
+    "react",
+    "typescript",
+    "brutalist"
+  ],
   "scripts": {
     "dev": "vite --host",
     "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
