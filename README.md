@@ -97,8 +97,6 @@ The application uses environment variables for configuration:
 
 - `PORT` - Server port (default: 3000)
 - `NODE_ENV` - Environment mode (development/production)
-- `VITE_ANALYTICS_ENDPOINT` - Analytics endpoint URL
-- `VITE_ANALYTICS_WEBSITE_ID` - Analytics website ID
 
 ## 📁 Project Structure
 
@@ -112,10 +110,9 @@ web-manus-typos-inc/
 │       ├── hooks/         # Custom hooks
 │       ├── lib/           # Utility functions
 │       └── pages/         # Page components
-├── server/                # Backend Express server
+├── server/                # Backend Express server (static file serving only)
 │   └── index.ts          # Server entry point
 ├── shared/                # Shared code between client and server
-├── attached_assets/       # Static assets
 └── patches/              # Package patches
 ```
 
