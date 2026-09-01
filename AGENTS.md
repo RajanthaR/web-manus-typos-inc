@@ -35,7 +35,7 @@ client/
   src/
     main.tsx / App.tsx          Entry + wouter routes (Home, NotFound)
     pages/Home.tsx              Text transformation UI (input, density, output, copy)
-    components/                 ErrorBoundary, ManusDialog, Map (template leftovers)
+    components/                 ErrorBoundary, AppDialog, Map (template leftovers)
     components/ui/              shadcn primitives (generated — compose, don't hand-edit)
     hooks/                      useComposition, useMobile, usePersistFn
     contexts/ThemeContext.tsx
@@ -75,4 +75,4 @@ No `.env.example`; nothing beyond `PORT`/`NODE_ENV` is read.
 
 - Pure client-side toy app: no database, no auth, no telemetry
 - Package.json already carries the author field (`Rajantha R Ambegala`)
-- `Map.tsx` / `ManusDialog.tsx` are unused template leftovers
+- `Map.tsx` / `AppDialog.tsx` are unused template leftovers
